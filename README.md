@@ -6,8 +6,16 @@
 </p>
 In this tutorial I will demonstrate the post configuration setup of the osTicket system .<br />
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure 
+- Remote Desktop
+- osTicket
+- Windows 10
 <p>
 
+
+## Post Config Setup Stages
 </p>
 </p>
 <p>
