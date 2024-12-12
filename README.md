@@ -22,9 +22,9 @@ In this tutorial I will demonstrate the post configuration setup of the osTicket
 Now that we have succesfully configured osTicket.
   
 first order of business is to configure new roles within the help desk. In order to do this you will need to first go to the  Admin panel-> Agents-> Roles. From here we will create a new role called the Supreme Admin. 
-Click on "Add new role" then enter the name of the new role. while doing this you can also edit any specific   roles permissions. Because we are creating a Supreme Admin we are going to give them permission on everything. 
-For the future when creating roles you want to remeber that roles are used to detemine a agent users permissions not all agents will need unlimited access like the Supreme admin
-Keep in mind roles are used to determine an agents permissions so not all agents will have unlimited access. If you followed the steps correctly above your screen should like like this. and you will have succesfully created the "Supreme Admin" role.
+Click on "Add new role" then enter the name of the new role. While doing this you can also edit any specific roles/permissions. Because we are creating a Supreme Admin we are going to give them permission on everything. 
+For the future when creating roles you want to remeber that roles are used to detemine a agent users permissions, not all agents will need unlimited access like the Supreme Admin.
+If you followed the steps correctly above your screen should like like this, and you will have succesfully created the "Supreme Admin" role.
 </p>
 
 ![image](https://github.com/user-attachments/assets/da1a97c3-9c24-455e-8430-4865cf357c73)
@@ -35,8 +35,8 @@ Keep in mind roles are used to determine an agents permissions so not all agents
 </p>
 <p>
 
-Now we will create departments to help with ticket visability so that certain departments can see their own tickets    
-So first thing you will do is select the "Departments" button in the agents tab. once you do that you will be able to create a new department. Every agent is assigned to a department depending on their assigned role within the helpdesk. For this tutorial we will be creating the "SysAdmins" department, this is where the Supreme Admins will be designated. Other specific settings such as SLAs, managers and other email settings can be set up in the departments tab, however we will leave those blank for now. If done correctly you will see your new SysAdmin department appear in your departments dashboard just like it does in the picture below
+Now we will create departments to help with ticket visability so that certain departments can see their own tickets.    
+First thing you will do is select the "Departments" button in the agents tab. Once you do that you will be able to create a new department. Every agent is assigned to a department depending on their assigned role inside the helpdesk. For this tutorial we will be creating the "SysAdmins" department, this is where the Supreme Admins will be designated. Other specific settings such as SLAs, managers, and other email settings can be set up in the departments tab. However we will leave those blank for now.
 </p>
 <br />
 <p>
@@ -59,7 +59,7 @@ Now that we have configured a new department we will need to set up a new team a
 
 </p>
 <p>
-The next step will be to create a new setting that will allow anyone to create tickets. even if they arent registered in the system to do this you will go to Admin Panel->Settings->User Settings. Once you get into the user settings you will make sure the box highlighted below is unchecked and save your changes. Now anyone can create a ticket 
+The next step will be to create a new setting that will allow anyone to create tickets. Even if they arent registered in the system. To do this you will go to Admin Panel->Settings->User Settings. Once you get into the user settings you will make sure the box highlighted below is unchecked and save your changes. Now anyone can create a ticket 
 </p>
 <br />
 
@@ -68,7 +68,7 @@ The next step will be to create a new setting that will allow anyone to create t
 
 </p>
 <p>
-It is now time to create Agents. these are employees of the help desk that help with resolving tickets. We will create two agents a Jane Doe and a John Doe. Agents will also be assigned primary departments as well as be given a primary role for tickets sent to their department. Agents can be given access to other departments other than their own, you can do this by clicking the "Access" tab in the Manage agents dashboard i have also included a picture highlighting the tab below 
+It is now time to create Agents. These are employees of the help desk that help with resolving tickets. We will create two agents a Jane Doe and a John Doe. Agents will also be assigned primary departments, as well as be given a primary role for tickets sent to their department. Agents can be given access to other departments other than their own, you can do this by clicking the "Access" tab in the Manage agents dashboard. I have also included a picture highlighting the tab below 
 </p>
 <br />
 
@@ -90,7 +90,8 @@ Now we will create users. Users are simply customers that may create tickets whe
 
 </p>
 <p>
-Now we will configure our SLAs. SLAs basically outline a certain amount of time in which help desk is expected to take to respond/resolve depending on severity of the issue it could be anywhere from 1 hour to 24 hours for  a specific ticket. SLA Plans are created by going to Admin Panel this is the orange lettering up in the upper right hand corner of the screen again. 
+Now we will configure our SLAs. SLAs basically outline a certain amount of time in which help desk is expected to take to respond/resolve the ticket. Depending on severity of the issue it could be anywhere from 1 hour to 24 hours for  a specific ticket. 
+SLA Plans are created by going to Admin Panel this is the orange lettering up in the upper right hand corner of the screen again. 
 From there you will click ->Manage->SLA->Add New SLA Plan. Each SLA has a schedule and within that schedule there is a grace period. 
 </p>
 <br />
